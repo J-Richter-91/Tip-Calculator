@@ -1,0 +1,106 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(185, 41%, 84%);
+    font-family:'Times New Roman', Times, serif;
+}
+/*Main Container*/
+.container{
+    display: flex;
+    background-color: white;
+    width: 660px;
+    height: 320px;
+    border-radius: 25px;
+    box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+/*Inner Container/Left*/
+.inner-container{
+    padding-right: 55px;
+    margin-left: auto;
+}
+
+/*Calculation container/Right*/
+.calculation-container{
+    background-color: hsl(183, 100%, 15%);
+    width: 250px;
+    height: 300px;
+    border-radius: 25px;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 15px;
+    position: relative;
+}
+
+/*Input Styles*/
+input{
+    background-color:hsl(189, 41%, 97%)
+}
+/*Input IMGs*/
+.bill-before-tip{
+    background: url(icon-dollar.svg)no-repeat;
+    
+}
+
+.number-of-ppl{
+    background: url(icon-person.svg)no-repeat;
+}
+/*input text styling*/
+.bill-before-tip, .number-of-ppl{
+    background-color: hsl(189, 41%, 97%);
+    text-align: right;
+}
+
+.bill-txt, .tip-percent-txt, .number-of-ppl-txt{
+    margin-bottom: 5px;
+    color:hsl(183, 100%, 15%);
+    font-weight: bold;
+}
+
+/*Tip Button Styling*/
+
+
+button{
+    cursor: pointer;
+}
+
+.tip-btn{
+    
+    background-color:hsl(183, 100%, 15%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 50px;
+    height: 25px;
+    
+}
+
+.amount-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+
+.tip-total-per-person, .total-per-person{
+    margin-left: auto;
+    margin-right: 15px;
+    font-size: 1.5em;
+    color: hsl(172, 67%, 45%);
+}
+
+.reset-btn{
+    position: absolute;
+    bottom: 5px;
+    right: 100px;
+    margin-bottom: 15px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color:hsl(185, 41%, 84%);
+    color: hsl(183, 100%, 15%);
+}
